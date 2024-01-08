@@ -1,5 +1,7 @@
 import React from "react";
 
+import SearchBar from "./components/SearchBar";
+
 const Home = () => {
   return (
     <div>
@@ -7,7 +9,7 @@ const Home = () => {
         <h1>Seek Sanctuary</h1>
         <p>A personalized experience for finding your next church home.</p>
         <h2>Start searching for your new church home now!</h2>
-        <input type="text" />
+        <SearchBar />
       </section>
       <section>
         <h3>Step 1</h3>
